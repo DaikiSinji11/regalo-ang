@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Te Amo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Corazones -->
+  <canvas id="heart-canvas"></canvas>
+
+  <!-- Texto central -->
+  <div class="center-text">TE AMO</div>
+
+  <!-- Palabras flotantes -->
+  <canvas id="canvas"></canvas>
+
+  <!-- Botón para mostrar carta -->
+  <button class="show-letter-btn" onclick="mostrarCarta()">Haz clic aquí</button>
+
+  <!-- Carta -->
+  <div class="carta" id="carta">
+    <p>Mi amor, este primer mes contigo ha sido mágico. Gracias por ser mi alegría, mi apoyo y mi todo.  
+    Te amo con todo mi corazón y te elegiría en cada universo 💖.</p>
+    <button onclick="cerrarCarta()">Cerrar</button>
+  </div>
+
+  <!-- Música de fondo -->
+  <video autoplay loop style="display: none">
+  <source src="musica.mp4" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
