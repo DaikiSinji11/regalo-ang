@@ -1,6 +1,6 @@
 const palabras = [
   "Me encantas", "Preciosa", "Guapa", "Linda", "Mi amor", "Te adoro",
-  "Perfecta", "<3", "Bonita", "Mi vida", "Hermosa", "Sole Mio", "Amorcito",
+  "Perfecta", "Bonita", "Mi vida", "Hermosa", "Sole Mio", "Amorcito",
   "Mi niña", "Me gustas", "Te quiero", "Me fascinas", "Mi todo", "Encanto", "Te amo",
   "Te adoro", "Me enamoras"
 ];
