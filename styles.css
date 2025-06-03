@@ -14,6 +14,7 @@ body {
   z-index: 0;
 }
 
+/* Texto central */
 .center-text {
   position: absolute;
   top: 15%;
@@ -27,8 +28,10 @@ body {
   border-radius: 20px;
   z-index: 2;
   text-align: center;
+  word-wrap: break-word;
 }
 
+/* Fondo animado */
 canvas {
   position: fixed;
   top: 0;
@@ -36,6 +39,7 @@ canvas {
   z-index: 1;
 }
 
+/* Botón */
 .show-letter-btn {
   position: absolute;
   bottom: 30px;
@@ -67,7 +71,7 @@ canvas {
   100% { transform: translateX(-50%) scale(1); }
 }
 
-/* Carta */
+/* Carta animada */
 .carta {
   position: absolute;
   top: 50%;
@@ -135,9 +139,7 @@ canvas {
   100% { text-shadow: none; transform: scale(1); }
 }
 
-/* ------------------- */
-/* RESPONSIVE ADAPTACIÓN */
-/* ------------------- */
+/* RESPONSIVE */
 
 @media screen and (max-width: 768px) {
   .center-text {
@@ -182,10 +184,3 @@ canvas {
     font-size: 0.9rem;
   }
 }
-
-
-
-
-
-
-
