@@ -106,6 +106,12 @@ function animarCorazones() {
 setInterval(crearCorazon, 200);
 animarCorazones();
 
+window.addEventListener('resize', () => {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+  heartCanvas.width = window.innerWidth;
+  heartCanvas.height = window.innerHeight;
+});
 
 
 
